@@ -32,12 +32,6 @@ router.post('/notes', (req, res)=>{
     res.sendFile(path.join(__dirname, "../db/db.json"))
 })
 
-router.delete("/notes/:id", (req, res)=>{
-    // logic to delete note goes here.
-
-    // you want to readFile
-})
-
 
 
 module.exports = router;
